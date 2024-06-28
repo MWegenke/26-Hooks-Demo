@@ -1,4 +1,3 @@
-import './App.css';
 import React, {useState, useEffect} from 'react';
 import Pokeman from './Pokeman';
 
@@ -38,6 +37,7 @@ function App() {
         once that is working, add logic to not allow user to click either button if there is no previous or next page (aka you are on page 1, the previous button does not function) 
         HINT: use a ternary*/}
       <button>PREV</button>
+      {page}{/* This should update as you navigate pages, and be replaced with the CurrentPage Component */}
       <button>NEXT</button>
     </div>
   );
